@@ -76,6 +76,7 @@ hr-analytics-powerbi-dashboard/
 ├── hr_cleaning.py
 ├── HR_Analytics_Cleaned.csv
 ├── HrAnalyticsDashboard.pbix
+├── ibm-hr-analytics-employee-attrition-performance.csv
 └── README.md
 
 ## 📊 Dataset
