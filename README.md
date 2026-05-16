@@ -31,7 +31,7 @@ Star schema with Fact_Employees connected to:
 - Dim_Education
 - Dim_Demographics
 
-![Data Model](screenshots/data_model.png)
+![Data Model](screenshots/Data_Model.png)
 
 ## 📈 Dashboard Pages
 
@@ -40,14 +40,14 @@ Star schema with Fact_Employees connected to:
 - Headcount by department, gender split, age distribution
 - Salary band breakdown and department slicer
 
-![Page 1](screenshots/page1_workforce.png)
+![Page 1](screenshots/Workforce_Overview.png)
 
 ### Page 2 — Attrition Analysis
 - Attrition rate by department, age group, salary band
 - Attrition risk distribution
 - Overtime and department slicers
 
-![Page 2](screenshots/page2_attrition.png)
+![Page 2](screenshots/Attrition_Analysis.png)
 
 ### Page 3 — Attrition Deep Dive & Risk Analysis
 - 160 high-risk employees identified
@@ -55,7 +55,7 @@ Star schema with Fact_Employees connected to:
 - Attrition by job role, tenure, business travel, work-life balance
 - TenureBand and department slicers
 
-![Page 3](screenshots/page3_deepdive.png)
+![Page 3](screenshots/Recruitment_Funnel.png)
 
 ## 🤖 AI Usage in This Project
 - **Claude** generated Python cleaning script and DAX measures
@@ -68,14 +68,14 @@ Star schema with Fact_Employees connected to:
 hr-analytics-powerbi-dashboard/
 │
 ├── screenshots/
-│   ├── page1_workforce.png
-│   ├── page2_attrition.png
-│   ├── page3_deepdive.png
-│   └── data_model.png
+│   ├── Workforce_Overview.png
+│   ├── Attrition_Analysis.png
+│   ├── Recruitment_Funnel.png
+│   └── Data_Model.png
 │
 ├── hr_cleaning.py
 ├── HR_Analytics_Cleaned.csv
-├── HR_Analytics_Dashboard.pbix
+├── HrAnalyticsDashboard.pbix
 └── README.md
 
 ## 📊 Dataset
